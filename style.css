@@ -1,0 +1,239 @@
+/* Defaul-css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+   font-family: 'Roboto',sans-serif;
+
+    /* box-sizing: border-box; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.none {
+    float: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.fixed-width {
+    max-width: 80%;
+    margin: auto;
+     
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* =================================
+header-section start form here
+===================================== */
+.header-section{
+    background-color: #22c3a3;
+     padding: 15px 0;
+     
+}
+.logo-left {
+    width: 30%;
+}
+.logo-left h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navbar-right {
+    width: 70%;
+}
+.navbar-right ul {
+    text-align: right;
+}
+
+.navbar-right ul li {
+    display: inline-block;
+}
+.navbar-right ul li a {
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+/* =================================
+banner-section start form here
+===================================== */
+.banner-section {
+    background-image: url(elephant-3458033_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 150px 0;
+    position: relative;
+    z-index: 10;
+}
+.banner-section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22c3a387;
+    z-index: -1;
+}
+.banner-section h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 39px;
+    display: inline;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.banner-section p {
+    color: #f2f2f2;
+    padding: 27px 0;
+    font-size: 16px;
+}
+.banner-section a {
+    border-radius: 2px;
+    border: 2px solid white;
+    padding: 7px 18px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+/* =================================
+services-section start form here
+===================================== */
+.service-section {
+    padding: 0px 0 50px 0;
+    border-bottom: 1px solid #00bc96;
+    background: #f6f6f694;
+}
+.services {
+    padding: 39px 0;
+}
+.section-title h1 {
+    font-weight: 300;
+    /* color: #90AAD2; */
+    font-size: 29px;
+}
+.section-title p {
+    color: #767676;
+    font-size: 13px;
+    padding: 15px 0;
+}
+.service-items {
+    width: 23%;
+    margin-right: 2%;
+}
+h4 {
+    color: #4A463F;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.service-items span {
+    font-size: 36px;
+    color: #00BC96;
+    padding: 25px 0;
+    display: block;
+}
+.service-items p {
+    font-size: 12px;
+    color: #767676;
+}
+
+/* =================================
+about-section start form here
+===================================== */
+.about-section {
+    background: #f6f6f694;
+}
+.section-title {
+    padding: 50px 0 0 0;
+}
+.photo-left {
+    width: 50%;
+}
+.photo-left img {
+    width: 88%;
+}
+.content-right strong {
+    font-weight: 400;
+    padding: 12px 0;
+    display: inline-block;
+    color: #767676;
+}
+.content-div {
+    padding: 30px 0 50px 0;
+}
+.content-right p {
+    font-size: 14px;
+    color: #767676;
+}
+.content-right {
+    width: 50%;
+}
+/* =================================
+contact-section start form here
+===================================== */
+.contact-section {
+    background: #f6f6f6;
+    padding: 26px 0px;
+}
+.contact-details span {
+    color: #22c3a3;
+}
+.contact-details {
+    width: 33.3%;
+}
+.contact-details span {
+    color: #22c3a3;
+    display: block;
+    padding: 40px 0 10px 0;
+}
+.contact-details p {
+    font-size: 14px;
+}
+/* =================================
+footer-section start form here
+===================================== */
+.footer-section {
+    background: #22c3a3;
+}
+.social-menu ul {
+    text-align: center;
+}
+.social-menu a {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 6px;
+}
